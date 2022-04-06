@@ -1,11 +1,12 @@
 {
-  "name": "Follio-next",
-  "version": "0.1.0",
+  "name": "emailPort",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -H 0.0.0.0 -p $PORT"
+    "start": "next start -H 0.0.0.0 -p $PORT", 
+    "export": "next build && next export"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
