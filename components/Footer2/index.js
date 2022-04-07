@@ -18,7 +18,7 @@ const Footer2 = (props) => {
                                     {/* <li><Link href="/AboutPage">About</Link></li> */}
                                     <li><Link href="/PorfolioGrid4">Portfolio</Link></li>
                                     {/* <li><Link href="/BlogPage">Blog</Link></li> */}
-                                    <li><Link href="/ContactPage">Contact</Link></li>
+                                    {/* <li><Link href="/ContactPage">Contact</Link></li> */}
                                 </ul>
                             </div>
                         </div>
