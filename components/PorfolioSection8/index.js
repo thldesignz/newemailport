@@ -92,15 +92,15 @@ class PorfolioSection8 extends Component {
                                         <div className="protfolio-wrapper">
                                             <div className="wpo-protfolio-single">
                                                 <div className="wpo-protfolio-img">
-                                                    <img src='images/protfolio/img-22.jpg' alt="" className="img img-responsive"/>
+                                                    <img src='images/real1.png' alt="" className="img img-responsive"/>
                                                 </div>
                                                 <div className="wpo-protfolio-text">
-                                                    <h2>Website Development</h2>
-                                                    <span>WordPress . Blog</span>
-                                                    <Link href="/ProjectDetails"><a>View Full Work</a></Link>
+                                                    <h2>Landing Page</h2>
+                                                    <span>Web Development </span>
+                                                    <Link href="/ProjectDetails/real"><a>View Full Work</a></Link>
                                                 </div>
                                                 <div className="thumb-text">
-                                                    <span>01</span>
+                                                    <span>04</span>
                                                 </div>
                                             </div>
                                         </div>
