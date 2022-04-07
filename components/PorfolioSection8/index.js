@@ -5,7 +5,7 @@ import Link from 'next/link'
 class PorfolioSection8 extends Component {
 
     state = {
-        onLandingPages: false,
+        onLandingPage: false,
         onEmailDevelopment: false,
         onWebApp: false,
         onPhotography: false,
@@ -78,8 +78,8 @@ class PorfolioSection8 extends Component {
                             <div className="gallery-filters">
                                 <ul>
                                     <li><button data-filter="*" href="/" className="current" onClick={allElement}>All</button></li>
-                                    <li><button data-filter=".Email-Development" href="/" onClick={emailDevelopment}>Email Development</button></li>
-                                    <li><button data-filter=".Landing-Page" href="/" onClick={landingPage}>Landing Pages</button></li>
+                                    <li><button data-filter=".Web-Design" href="/" onClick={emailDevelopment}>Email Development</button></li>
+                                    <li><button data-filter=".Print-Design" href="/" onClick={landingPage}>Landing Pages</button></li>
                                     {/* <li><button data-filter=".Web-Application" href="/" onClick={webApp}>Web Application</button></li>               
                                     <li><button data-filter=".Photography" href="/" onClick={Photography}>Photography</button></li>  */}
                                 </ul>
@@ -165,9 +165,9 @@ class PorfolioSection8 extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="protfolio-btn">
+                            {/* <div className="protfolio-btn">
                                 <Link href="/PorfolioGrid"><a className="theme-btn-s2"> Load More</a></Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
