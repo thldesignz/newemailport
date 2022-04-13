@@ -8,6 +8,18 @@ import AboutArea4 from '../components/aboutarea4'
 import Head from 'next/head'
 
 const HomePage7 =() => {
+
+     
+     
+    React.useEffect(() => {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-4BJLTD0RQT');
+
+        gtag();
+    })
     return(
         <Fragment>
             <Head>
