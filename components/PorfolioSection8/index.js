@@ -164,6 +164,25 @@ class PorfolioSection8 extends Component {
                                         </div>
                                     </div>
                                 </div>
+                                <div className={this.state.onLandingPage? "grid active" : "grid" 
+                                    && this.state.isOpen ? "grid" : "grid open"}>
+                                        <div className="protfolio-wrapper">
+                                            <div className="wpo-protfolio-single">
+                                                <div className="wpo-protfolio-img">
+                                                    <img src='images/lawn.png' alt="" className="img img-responsive"/>
+                                                </div>
+                                                <div className="wpo-protfolio-text">
+                                                    <h2>Landing Page</h2>
+                                                    <span>Web Development </span>
+                                                    <Link href="/ProjectDetails/lawn"><a>View Full Work</a></Link>
+                                                </div>
+                                                <div className="thumb-text">
+                                                    <span>05</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                               
                             </div>
                             {/* <div className="protfolio-btn">
                                 <Link href="/PorfolioGrid"><a className="theme-btn-s2"> Load More</a></Link>
