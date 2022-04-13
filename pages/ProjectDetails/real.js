@@ -6,6 +6,15 @@ import ProjectSingleMakarrt from '../../components/ProjectSingle/real'
 import Head from 'next/head'
 
 const ProjectDetails =() => {
+    React.useEffect(() => {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-4BJLTD0RQT');
+
+        gtag();
+    })
     return(
         <Fragment>
             <Head>
