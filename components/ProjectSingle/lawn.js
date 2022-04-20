@@ -29,7 +29,7 @@ const ProjectSingleLawn = ( props ) => {
                                 <div className="co-l-lg-4 col-md-4 col-sm-6 col-12">
                                     <div className="wpo-project-details-text">
                                         <span>Project Url</span>
-                                        <h2><a target='_blank' href='https://lawn-care.herokuapp.com/'>Click Here</a></h2>
+                                        <h2><a target='_blank' href='https://new-lawncare.herokuapp.com/'>Click Here</a></h2>
                                     </div>
                                 </div>
                             </div>
