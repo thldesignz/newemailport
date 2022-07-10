@@ -169,7 +169,7 @@ class PorfolioSection8 extends Component {
                                         <div className="protfolio-wrapper">
                                             <div className="wpo-protfolio-single">
                                                 <div className="wpo-protfolio-img">
-                                                    <img src='images/lawn.png' alt="" className="img img-responsive"/>
+                                                    <img src='images/new-lawn.png' alt="" className="img img-responsive"/>
                                                 </div>
                                                 <div className="wpo-protfolio-text">
                                                     <h2>Landing Page</h2>

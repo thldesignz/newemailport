@@ -9,7 +9,7 @@ const ProjectSingleLawn = ( props ) => {
                     <div className="col-lg-8 offset-lg-2">
                         <div className="wpo-minimal-wrap">
                             <div className="wpo-minimal-img">
-                                <img src='/images/lawn.png' alt=""/>
+                                <img src='/images/new-lawn.png' alt=""/>
                             </div>
                         </div>
                         <div className="wpo-project-details-list">
@@ -39,7 +39,7 @@ const ProjectSingleLawn = ( props ) => {
                             <div className="row">
                                 <div className="col-md-12 col-sm-12 col-12">
                                     <div className="wpo-p-details-img">
-                                         <img src='/images/lawn.png' alt=""/>
+                                         <img src='/images/new-lawn.png' alt=""/>
                                     </div>
                                 </div>
                                
